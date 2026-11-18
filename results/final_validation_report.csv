@@ -1,0 +1,74 @@
+status,check,details
+PASS,combined_batting_scores_by_competition.csv,Loaded 503 rows × 15 columns from C:\Users\Tanishq Gharat\OneDrive\Desktop\SupeRR\outputs\analysis\combined_player_scores\combined_batting_scores_by_competition.csv
+PASS,combined_batting_scores_by_competition.csv required columns,All required columns found.
+PASS,combined_batting_scores_by_competition.csv duplicate key check,"0 duplicate rows using ['player_id', 'population', 'period']"
+PASS,combined_batting_scores_by_competition.csv combined_score range,0 available scores outside 0–100; 207 missing scores appropriately excluded.
+PASS,combined_batting_scores_by_competition.csv overall_index range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,combined_batting_scores_by_competition.csv pressure_index range,0 available scores outside 0–100; 207 missing scores appropriately excluded.
+PASS,combined_batting_scores_by_competition.csv 35:65 combined score formula,0 mismatches among 296 scored rows.
+PASS,combined_batting_scores_by_competition.csv pressure availability consistency,0 inconsistent rows.
+PASS,combined_batting_scores_by_competition.csv player_name_overall consistency,0 name mismatches.
+PASS,combined_batting_scores_by_competition.csv player_name_pressure consistency,0 name mismatches.
+PASS,combined_bowling_scores_by_competition.csv,Loaded 402 rows × 15 columns from C:\Users\Tanishq Gharat\OneDrive\Desktop\SupeRR\outputs\analysis\combined_player_scores\combined_bowling_scores_by_competition.csv
+PASS,combined_bowling_scores_by_competition.csv required columns,All required columns found.
+PASS,combined_bowling_scores_by_competition.csv duplicate key check,"0 duplicate rows using ['player_id', 'population', 'period']"
+PASS,combined_bowling_scores_by_competition.csv combined_score range,0 available scores outside 0–100; 127 missing scores appropriately excluded.
+PASS,combined_bowling_scores_by_competition.csv overall_index range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,combined_bowling_scores_by_competition.csv pressure_index range,0 available scores outside 0–100; 127 missing scores appropriately excluded.
+PASS,combined_bowling_scores_by_competition.csv 35:65 combined score formula,0 mismatches among 275 scored rows.
+PASS,combined_bowling_scores_by_competition.csv pressure availability consistency,0 inconsistent rows.
+PASS,combined_bowling_scores_by_competition.csv player_name_overall consistency,0 name mismatches.
+PASS,combined_bowling_scores_by_competition.csv player_name_pressure consistency,0 name mismatches.
+PASS,cross_competition_rankings.csv,Loaded 126 rows × 19 columns from C:\Users\Tanishq Gharat\OneDrive\Desktop\SupeRR\outputs\analysis\combined_player_scores\cross_competition_rankings.csv
+PASS,Cross-competition required columns,All required columns found.
+PASS,Cross-competition duplicate key check,"0 duplicate rows using ['player_id', 'index_type', 'period']"
+PASS,Cross-competition score range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,65:35 cross-competition formula,0 mismatches among 126 scored rows.
+PASS,ipl_wide_batting_top10.csv,Loaded 10 rows × 10 columns from C:\Users\Tanishq Gharat\OneDrive\Desktop\SupeRR\outputs\analysis\final_shortlists\ipl_wide_batting_top10.csv
+PASS,ipl_wide_batting_top10.csv required columns,All required columns found.
+PASS,ipl_wide_batting_top10.csv Top 10 row count,Exactly 10 rows.
+PASS,ipl_wide_batting_top10.csv duplicate key check,0 duplicate rows using ['player_id']
+PASS,ipl_wide_batting_top10.csv rank sequence,"Observed ranks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+PASS,ipl_wide_batting_top10.csv score range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,ipl_wide_batting_top10.csv score ordering,Scores are descending.
+PASS,ipl_wide_bowling_top10.csv,Loaded 10 rows × 10 columns from C:\Users\Tanishq Gharat\OneDrive\Desktop\SupeRR\outputs\analysis\final_shortlists\ipl_wide_bowling_top10.csv
+PASS,ipl_wide_bowling_top10.csv required columns,All required columns found.
+PASS,ipl_wide_bowling_top10.csv Top 10 row count,Exactly 10 rows.
+PASS,ipl_wide_bowling_top10.csv duplicate key check,0 duplicate rows using ['player_id']
+PASS,ipl_wide_bowling_top10.csv rank sequence,"Observed ranks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+PASS,ipl_wide_bowling_top10.csv score range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,ipl_wide_bowling_top10.csv score ordering,Scores are descending.
+PASS,t20i_batting_top10.csv,Loaded 10 rows × 9 columns from C:\Users\Tanishq Gharat\OneDrive\Desktop\SupeRR\outputs\analysis\final_shortlists\t20i_batting_top10.csv
+PASS,t20i_batting_top10.csv required columns,All required columns found.
+PASS,t20i_batting_top10.csv Top 10 row count,Exactly 10 rows.
+PASS,t20i_batting_top10.csv duplicate key check,0 duplicate rows using ['player_id']
+PASS,t20i_batting_top10.csv rank sequence,"Observed ranks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+PASS,t20i_batting_top10.csv score range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,t20i_batting_top10.csv score ordering,Scores are descending.
+PASS,t20i_bowling_top10.csv,Loaded 10 rows × 9 columns from C:\Users\Tanishq Gharat\OneDrive\Desktop\SupeRR\outputs\analysis\final_shortlists\t20i_bowling_top10.csv
+PASS,t20i_bowling_top10.csv required columns,All required columns found.
+PASS,t20i_bowling_top10.csv Top 10 row count,Exactly 10 rows.
+PASS,t20i_bowling_top10.csv duplicate key check,0 duplicate rows using ['player_id']
+PASS,t20i_bowling_top10.csv rank sequence,"Observed ranks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+PASS,t20i_bowling_top10.csv score range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,t20i_bowling_top10.csv score ordering,Scores are descending.
+PASS,overall_cross_comp_batting_top10.csv,Loaded 10 rows × 14 columns from C:\Users\Tanishq Gharat\OneDrive\Desktop\SupeRR\outputs\analysis\final_shortlists\overall_cross_comp_batting_top10.csv
+PASS,overall_cross_comp_batting_top10.csv required columns,All required columns found.
+PASS,overall_cross_comp_batting_top10.csv Top 10 row count,Exactly 10 rows.
+PASS,overall_cross_comp_batting_top10.csv duplicate key check,0 duplicate rows using ['player_id']
+PASS,overall_cross_comp_batting_top10.csv rank sequence,"Observed ranks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+PASS,overall_cross_comp_batting_top10.csv IPL-wide score range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,overall_cross_comp_batting_top10.csv T20I score range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,overall_cross_comp_batting_top10.csv overall score range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,overall_cross_comp_batting_top10.csv overall score ordering,Scores are descending.
+PASS,overall_cross_comp_batting_top10.csv 65:35 weighted score formula,0 mismatches among 10 scored rows.
+PASS,overall_cross_comp_bowling_top10.csv,Loaded 10 rows × 13 columns from C:\Users\Tanishq Gharat\OneDrive\Desktop\SupeRR\outputs\analysis\final_shortlists\overall_cross_comp_bowling_top10.csv
+PASS,overall_cross_comp_bowling_top10.csv required columns,All required columns found.
+PASS,overall_cross_comp_bowling_top10.csv Top 10 row count,Exactly 10 rows.
+PASS,overall_cross_comp_bowling_top10.csv duplicate key check,0 duplicate rows using ['player_id']
+PASS,overall_cross_comp_bowling_top10.csv rank sequence,"Observed ranks: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+PASS,overall_cross_comp_bowling_top10.csv IPL-wide score range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,overall_cross_comp_bowling_top10.csv T20I score range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,overall_cross_comp_bowling_top10.csv overall score range,0 available scores outside 0–100; 0 missing scores appropriately excluded.
+PASS,overall_cross_comp_bowling_top10.csv overall score ordering,Scores are descending.
+PASS,overall_cross_comp_bowling_top10.csv 65:35 weighted score formula,0 mismatches among 10 scored rows.
